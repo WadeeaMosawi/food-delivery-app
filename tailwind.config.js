@@ -5,22 +5,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#2563EB", 
+        primary: "#FF5722", // deep orange (appetizing + friendly)
         white: {
           DEFAULT: "#ffffff",
-          100: "#f9fafb",
-          200: "#2563EB", 
+          100: "#FDFDFD",
+          200: "#FFFAF5", // subtle warm off-white
         },
         gray: {
-          100: "#9CA3AF",
-          200: "#6B7280",
+          100: "#9E9E9E", // softer gray for text
+          200: "#616161", // darker gray for contrast
         },
         dark: {
-          100: "#111827",
+          100: "#1C1C1E", // modern deep background (iOS style dark)
         },
-        error: "#EF4444",  
-        success: "#10B981", 
-        accent: "#14B8A6",  
+        error: "#E53935", // red for error (close to food/red sauces 🍅)
+        success: "#43A047", // fresh green (like avocado or salad 🥗)
       },
       fontFamily: {
         quicksand: ["Quicksand-Regular", "sans-serif"],
@@ -32,4 +31,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
